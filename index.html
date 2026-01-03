@@ -79,6 +79,31 @@
     .service.active .details { max-height: 1000px; opacity: 1; }
     .details ul { font-size: 1.2rem; line-height: 1.5; padding-left: 1.2rem; }
     footer { text-align: center; padding: 1rem; font-size: 1rem; color: #555; }
+    .why-choose {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.25rem;
+}
+
+.why-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.why-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3fa34d;
+  margin-bottom: 0.5rem;
+}
+
+.why-card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+}
   </style>
 </head>
 <body>
@@ -159,7 +184,40 @@
 
   </div>
 </section>
+<section>
+  <h2>Why Choose College Fund Pet Care?</h2>
 
+  <div class="why-choose">
+
+    <div class="why-card">
+      <div class="why-title">Personal Attention</div>
+      <p>
+        Unlike large pet care services, I keep a small list of clients and do all of the work myself.
+        That means when you choose my business, you get consistent care and attention to detail from
+        someone who truly knows your pet.
+      </p>
+    </div>
+
+    <div class="why-card">
+      <div class="why-title">Cheaper Pricing</div>
+      <p>
+        Many dog sitting services charge $75 per day or more. I charge $65 per day, saving you money
+        on longer trips or vacations. This also includes one 30-minute walk per day at no extra cost —
+        something no other local pet sitter in Castle Rock offers.
+      </p>
+    </div>
+
+    <div class="why-card">
+      <div class="why-title">Local & Reliable</div>
+      <p>
+        I only serve local neighborhoods in The Meadows. Because I rely on word-of-mouth, my reputation
+        for reliable, high-quality care matters. When you book with me, you can trust that I will
+        follow through and do the job right.
+      </p>
+    </div>
+
+  </div>
+</section>
 <section>
   <h2>Contact Me</h2>
   <div class="contact-box">
